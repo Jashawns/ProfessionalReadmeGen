@@ -21,17 +21,12 @@ var entries = [
   },
   {
     type: "response",
-    name: "tableofcontents",
-    message: "What are the sections?"
-  },
-  {
-    type: "response",
     name: "installation",
     message: "How do you install the app?"
   },
   {
     type: "response",
-    name: "userstory",
+    name: "user_story",
     message: "What is the description of the target user of the app?"
   },
   {
@@ -42,7 +37,12 @@ var entries = [
   {
     type: "response",
     name: "license",
-    message: "What is the licensing information?"
+    message: "What is the license badge?"
+  },
+  {
+    type: "response",
+    name: "license_link",
+    message: "What is the license link?"
   },
   {
     type: "response",
