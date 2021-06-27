@@ -45,17 +45,17 @@ function generateMarkdown(data) {
           # Installation
           ${data.installation}
 
-          # User Story
-          ${data.user_story}
-
           # Usage
           ${data.usage}
+
+          # License if Applicable
+          ${renderLicenseSection(data)}
 
           # Concerns
           ${data.concerns}
 
-          # License if Applicable
-          ${renderLicenseSection(data)}
+          # User Story
+          ${data.user_story}
 `
 }
 
