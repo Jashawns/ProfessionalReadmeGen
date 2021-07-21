@@ -26,7 +26,7 @@ var entries = [
   },
   {
     type: "response",
-    name: "user_story",
+    name: "tests",
     message: "What is the description of the target user of the app?"
   },
   {
@@ -52,7 +52,7 @@ var entries = [
   {
     type: "response",
     name: "concerns",
-    message: "How does the user report issues?"
+    message: "Where can the user send questions and/or cocerns?"
   }
 ]
 

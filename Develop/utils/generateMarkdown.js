@@ -51,11 +51,14 @@ function generateMarkdown(data) {
           # License if Applicable
           ${renderLicenseSection(data)}
 
-          # Concerns
-          ${data.concerns}
-
-          # User Story
+          # Contributions
           ${data.user_story}
+
+          # Tests
+          ${data.user_story}
+
+          # Contact
+          ${data.concerns}
 `
 }
 
