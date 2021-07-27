@@ -1,34 +1,52 @@
-# Title
-          1
+# CCCC 
+  
+          [License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+          
+          #Description 
+          
 
-          # Description 
-          2
+          #Table of Contents 
+              - [Installation](#installation)
+              - [Usage](#usage)
+              - [License](#license)
+              - [Contributing](#contributing)
+              - [Tests](#tests)
+              - [Questions](#questions)
+              - [User Story](#user_story)
+              - [Contact](#contact)
 
-          # Table of Contents 
-              - Title
-              - Description
-              - Installation
-              - User Story
-              - Usage
-              - Concerns
-              - License
+          #Installation
+          
 
-          # Installation
-          3
+          #Usage
+          c
 
-          # Usage
-          5
-
-          # License if Applicable
-          6
-          7     
+          #License if Applicable:
+          [License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+          [(https://opensource.org/licenses/MIT)]     
     
 
-          # Contributions
+          #Contributions
+          Contributions to the app can be made to:
+          
+
+          #Tests
+          The following tests were run from the original version to catch errors:
+          - Random value
+          - DIV comparison
+          - OR comparison
+          - 
+
+          #Questions
+          Questions and concerns may be sent to:
+          
+
+          #User Story
           undefined
 
-          # Tests
-          undefined
+          #Contact
+          Respository can be found at:
+          [GitHub Profile](https://github.com//ProfessionalReadmeGen)
 
-          # Contact
-          9
+          Developer Email:
+          [(]
