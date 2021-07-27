@@ -27,7 +27,8 @@ function renderLicenseSection(data) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title} ![License](https://img.shields.io/badge/License-${license}-blue.svg 
+  return `# ${data.title} 
+        ![License Badge](https://img.shields.io/badge/License-${data.license}-blue.svg 
           
           # Description 
           ${data.description}
@@ -48,26 +49,32 @@ function generateMarkdown(data) {
           # Usage
           ${data.usage}
 
-          # License if Applicable
+          # License if Applicable:
           ${renderLicenseSection(data)}
 
           # Contributions
+          Contributions to the app can be made to:
           ${data.contributions}
 
           # Tests
-          ${data.tests}
+          The following tests were run from the original version to catch errors:
+          - Random value
+          - DIV comparison
+          - OR comparison
+          - ${data.tests}
 
           # Questions
+          Questions and concerns may be sent to:
           ${data.questions}
 
           # User Story
           ${data.user_story}
 
           # Contact
+          Respository can be found at:
+          [GitHub Profile] (https://github.com/${data.username}/ProfessionalReadmeGen)
 
-          [Github Profile] (https://github.com/${data.username}/ProfessionalReadmeGen)
-
-          Direct all questions and concerns to:
+          Developer Email:
           [Email] ${data.email}
 `
 }

@@ -5,7 +5,6 @@ var path = require('path')
 var util = require('util');
 
 const generateMarkdown = require('./utils/generateMarkdown');
-const writeFileAsync = util.promisify(fs.writeFile);
 
 // function init () {
 var entries = [
@@ -48,11 +47,11 @@ var entries = [
   {
     type: "response",
     name: "tests",
-    message: "What is the description of the target user of the app?"
+    message: "How do you test the app?"
   },   
   {
     type: "response",
-    name: "email",
+    name: "questions",
     message: "Where can the user email any questions or concerns?"
   },
   {
