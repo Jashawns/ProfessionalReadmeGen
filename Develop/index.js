@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown');
-const writeFileAsync = util.promisify(fs.writeFile);
+// const writeFileAsync = util.promisify(fs.writeFile);
 
 // function init () {
   let entries = [
@@ -56,7 +56,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
     },
     {
       type: "response",
-      name: "user.story",
+      name: "user_story",
       message: "What is the user story?"
     },
     {
@@ -71,7 +71,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
     }
   ]
 
-function writeToFileAsync(rmeEntries, rmeData) {
+function writeToFile(rmeEntries, rmeData) {
   return fs.writeFileSync(path.join(process.cwd(),rmeEntries), rmeData)
   
 }
@@ -80,7 +80,7 @@ async function init() {
     inquirer.prompt(entries)
     .then((inquirerResponse) => {   
         console.log("Generated");
-      writeToFileAsync("README.md", generateMarkdown({...inquirerResponse}))
+      writeToFile("README.md", generateMarkdown({...inquirerResponse}))
     })
     .catch((err) => {
         console.log(err);
