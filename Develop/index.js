@@ -26,23 +26,19 @@ var entries = [
   },
   {
     type: "response",
-    name: "tests",
-    message: "What is the description of the target user of the app?"
-  },
-  {
-    type: "response",
     name: "usage",
     message: "How is the app used?"
-  },     
+  },  
   {
-    type: "response",
+    type: "list",
     name: "license",
-    message: "What is the license badge?"
-  },
-  {
-    type: "response",
-    name: "license_link",
-    message: "What is the license link?"
+    message: "What license did you use: ",
+    choices: [
+        "MIT",
+        "Mozilla",
+        "Apache",
+        "Zlib",
+    ]
   },
   {
     type: "response",
@@ -51,8 +47,23 @@ var entries = [
   },
   {
     type: "response",
-    name: "concerns",
-    message: "Where can the user send questions and/or cocerns?"
+    name: "tests",
+    message: "What is the description of the target user of the app?"
+  },   
+  {
+    type: "response",
+    name: "email",
+    message: "Where can the user email any questions or concerns?"
+  },
+  {
+    type: "response",
+    name: "user.story",
+    message: "What is the user story?"
+  },
+  {
+    type: "response",
+    name: "contact",
+    message: "What is your GitHub user name?"
   }
 ]
 

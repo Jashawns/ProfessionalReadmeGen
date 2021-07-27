@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `${license}` 
+    return `![License](https://img.shields.io/badge/License-${license}-blue.svg "License Badge")` 
   }
   else {"None"}
 }
@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license_link) {
   if (license_link !== "None") {
-    return `${license_link}` 
+    return `(https://opensource.org/licenses/${license})` 
   }
   else {"None"}
 }
@@ -27,20 +27,20 @@ function renderLicenseSection(data) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# Title
-          ${data.title}
-
+  return `# ${data.title} ![License](https://img.shields.io/badge/License-${license}-blue.svg 
+          
           # Description 
           ${data.description}
 
           # Table of Contents 
-              - Title
-              - Description
               - Installation
-              - User Story
               - Usage
-              - Concerns
               - License
+              - Contributing
+              - Tests
+              - Questions
+              - User Story
+              - Contact
 
           # Installation
           ${data.installation}
@@ -52,13 +52,23 @@ function generateMarkdown(data) {
           ${renderLicenseSection(data)}
 
           # Contributions
-          ${data.user_story}
+          ${data.contributions}
 
           # Tests
+          ${data.tests}
+
+          # Questions
+          ${data.questions}
+
+          # User Story
           ${data.user_story}
 
           # Contact
-          ${data.concerns}
+
+          [Github Profile] (https://github.com/${data.username}/ProfessionalReadmeGen)
+
+          Direct all questions and concerns to:
+          [Email] ${data.email}
 `
 }
 
