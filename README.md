@@ -1,33 +1,28 @@
-# 09 Node.js Homework: Professional README Generator
+# Professional README Generator
 
-## Your Task
+# Description
 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
 
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+# Table of Contents
 
-The application will be invoked by using the following command:
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Licence](#licence)
+  - [Contributing](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [User_Story](#user_story)
+  - [Contact](#contact)
 
-```bash
-node index.js
-```
+# Installation
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+The application will be invoked by using the node index.js command. 
 
+# Usage
 
-## User Story
-
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
-
-```md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -43,69 +38,52 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
-```
 
-## Getting Started
+# Licence
 
-Here are some guidelines to help you get started:
+The application is unlicensed however the test license is as follows:
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+[MIT License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
+[MIT](https://opensource.org/licenses/MIT)
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+# Contributing
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+Contributions for further app development can be made to Cash App account $Jashawns
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+# Tests
 
-## Grading Requirements
+The tests for demo purposes will be listed as follows:
 
-This homework is graded based on the following criteria: 
+  The following tests were run from the original version to catch errors:
 
-### Deliverables: 20%
+  - Random value
+  - DIV comparison
+  - OR comparison
+  - AND comparison 
 
-* A sample README generated using the application must be submitted.
+# Questions
 
-* Your GitHub repository containing your application code.
+Questions and concerns may be sent to:
 
-### Walkthrough Video: 27%
+[Questions](mailto:geninfo@gmail.com)
 
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
+# User_Story
 
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
+# Contact
 
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
+Respository can be found at:
 
-### Technical Acceptance Criteria: 40%
+[GitHub](https://github.com/Jashawns/ProfessionalReadmeGen)
 
-* Satisfies all of the above acceptance criteria plus the following:
+Walkthrough:
 
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+[Walkthrough]()
 
-### Repository Quality: 13%
+Developer Email:
 
-* Repository has a unique name.
+[Email](mailto:jashawnstewart@gmail.com)
 
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
