@@ -80,13 +80,12 @@ function generateMarkdown(data) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Licence](#licence)
-  - [Contributing](#license)
+  - [License](#license)
+  - [Contributing](#contributions)
   - [Tests](#tests)
   - [Questions](#questions)
   - [User_Story](#user_story)
   - [Contact](#contact)
-
 
 # Installation
 
@@ -98,7 +97,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
 
-# License if Applicable:
+# License
 
   ${renderLicenseSection(data.license)}
  
